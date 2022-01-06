@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: rgb(182, 111, 164);
+    height: 50px;
+    
+}
+
+.menu ul{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.elemento:hover{
+    background-color: rgba(126, 33, 83, 0.672);
+    border-radius: 4px;
+}
+
+.elemento{
+    display: inline;
+    margin: 0 20px; /*en este caso usa el segundo valor para el margen de izq y derecha*/
+    /*margin: superior derecha inferior izquierda, en sentido de las manecillas del reloj*/
+    padding: 10px;
+    transition: background-color 0.4s;
+}
+
+.elemento a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px; /*altura de los elementos, para el texto*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elemento a:hover{
+    font-size: 20px;
+}
