@@ -1,29 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
     <title>Repaso</title>
 </head>
 <body>
     <!--git lents-->
     <h1>Repaso HTML</h1>
 
+    <h2 id="subtitulo">Formularios</h2>
+
     <form>
         <fieldset>
             <legend>Datos</legend>
             <div>
-                <label for="nombre">Nombre</label>
+                <label id="nombre" for="nombre">Nombre</label>
                 <input type="text" placeholder="Ingrese su nombre" />
-
             </div>
 
             <div>
-                <label for="apellido">Apellido</label>
+                <label id="apellido" for="apellido">Apellido</label>
                 <input type="text" placeholder="Ingrese su apellido" />
-                
+            </div>
+            <div>
+                <label id="comentario" for="comentario">Comentario</label>
+                <textarea name="comentario" cols="30" rows="10" placeholder="Ingrese aquí su comentario"></textarea>
+            </div>
+            <div>
+                <input type="button" value="Enviar"> 
             </div>
         </fieldset>
     </form>
+
+    <h2>Tablas</h2>
+    <table>
+        <thead>
+            <!--colspan-->
+            <!--rowspan-->
+            <tr>
+                <th>Cabecera</th>
+                <th>Cabecera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pie</td>
+                <td>Pie</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!--inline En Línea-->
+    <a class="enlace" href="servicios.html" target="_blank">Enlace</a>
     
+    <a class="enlace" href="servicios.html" target="_blank">Enlace 2</a>
+
+    <span class="enlace">Este es un span</span>
+
+    <!--block En bloque-->
+    <p id="bloque">Este es un párrafo</p>
+    <h1 id="bloque">Título</h1>
+    <h2 id="bloque">Subtítulo h2</h2>
+    <h6 id="bloque">Subtítulo h6</h6>
+    <div id="bloque">Este es un div</div>
+
+    <!--Enlace-->
+    <a href="servicios.html"><button>Hola</button><img src="https://i.ytimg.com/vi/vfDUwdx6Aps/maxresdefault.jpg" alt="ajolote" width="200"></a>
+    <a href="#subtitulo">Arriba</a>
 </body>
 </html>
