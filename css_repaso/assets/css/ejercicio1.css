@@ -1,0 +1,39 @@
+body{
+    background-color: #D3D3D3;
+}
+
+.titulo-principal{
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.main{
+    /*Medidas relativas*/
+    width: 90%;
+    /*width: 800px;*/
+    margin: 0 auto;
+}
+
+.main .contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main .subtitulo{
+    background-color: #808080;
+    color: white;
+    padding: 10px 5px;
+}
+
+.main .img{
+    float: left;
+}
+
+.main .text{
+    margin-left: 150px;
+}
+
+.main .text p{
+    text-indent: 20px;
+    text-align: justify;
+}
